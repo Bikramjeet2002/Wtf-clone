@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rott:hover{
+    transform: rotate(-1deg) !important;
+    transition: all ease-in-out 0.4s;
+}
+.rott:not(:hover){
+    transition: all ease-in-out 0.4s;
+}
+.img{
+    mix-blend-mode: darken;
+}
+.james{
+    display: none !important;
+}
+.imgry:hover .james{
+    display: flex !important;
+}
+.active{
+    background-color: black !important;
+    color: white !important;
+}
+@media screen and (max-width: 776px) {
+    .imgry{
+        height: 300px !important;
+        background-size: cover !important;
+    }
+}
+.home-demo .item {
+    background: #ff3f4d;
+}
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
